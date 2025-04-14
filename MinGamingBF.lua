@@ -50,10 +50,10 @@ local v2 = {
     }
 };
 local v3 = {
-    [1] = "",
-    [2] = "",
-    [3] = "",
-    [4] = ""
+    [1] = "Beta",
+    [2] = "Get key dùng",
+    [3] = "Tôi sẽ make lại ngon hơn",
+    [4] = "Cày thuê rẻ hs,sv liên hệ"
 };
 function TweenObject(v178, v179, v180)
     game.TweenService:Create(v178, TweenInfo.new(v179, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), v180):Play();
