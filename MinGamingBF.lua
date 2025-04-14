@@ -2700,6 +2700,11 @@ v16.Home:AddButton({
 v16.Home:AddButton({
     Title = "Skill",
     Description = "Skid là giỏi",
+    end
+});
+v16.Home:AddButton({
+    Title = "Skill",
+    Description = "Skid là giỏi",
     Callback = function()
     end
 });
