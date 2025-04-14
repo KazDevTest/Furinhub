@@ -50,10 +50,10 @@ local v2 = {
     }
 };
 local v3 = {
-    [1] = "Beta",
-    [2] = "Get key dùng",
-    [3] = "Tôi sẽ make lại ngon hơn",
-    [4] = "Cày thuê rẻ hs,sv liên hệ"
+    [1] = "",
+    [2] = "",
+    [3] = "",
+    [4] = ""
 };
 function TweenObject(v178, v179, v180)
     game.TweenService:Create(v178, TweenInfo.new(v179, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), v180):Play();
@@ -2711,6 +2711,12 @@ v16.Home:AddButton({
 v16.Home:AddButton({
     Title = "Update",
     Description = "Bản beta nên tao sẽ update thêm nhiều tính năng, lỗi gì báo nhắn tin facebook, cần upadate tính năng gì bảo tao để nghiên cứu.",
+    Callback = function()
+    end
+});
+v16.Home:AddButton({
+    Title = "Cày Thuê",
+    Description = "Cần cày thuê giá sv, hs liên hệ facebook.",
     Callback = function()
     end
 });
